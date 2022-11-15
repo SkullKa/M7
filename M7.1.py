@@ -24,4 +24,5 @@ if __name__ == "__main__":
     ax.set_xlabel('Date', fontsize=12)
     ax.set_ylabel('Dollars', fontsize=12)
     ax.plot(dates, dollars)
+    plt.xticks(rotation=45)
     plt.show()
